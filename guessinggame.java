@@ -17,7 +17,7 @@ public class guessinggame {
 		
 			System.out.println("Guess a number between 1 and 10: ");
 			guess = input.nextInt();
-			numTries++;	
+			
 		
 			if(guess == numguess){
 				win = true;
